@@ -37,3 +37,12 @@ git reset <id of commit here> // reset commitments after id
 git reset <id of commit here> --hard  
 
 Branch:  
+git branch <name of branch>  
+git branch -a  //showing branches  
+git branch -D <name of branch> //delete branch  
+git checkout -b <name of branch> // creating new branch and checkout it  
+
+Merge:  
+git checkout master  
+git merge <name of branch which you want merge>  
+
