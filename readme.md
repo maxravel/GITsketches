@@ -29,20 +29,20 @@ git commit -m "message about commit"
 git log   //showing history of commitments  
 git log --oneline //showing only one line about each commitment  
 checkout commit  
-git checkout <id of commit here>  // go back to commit  
+git checkout 'id of commit here'  // go back to commit  
 revert commit  
-git revert <id of commit here> // revert changes of commit  
+git revert 'id of commit here' // revert changes of commit  
 reset commit  
-git reset <id of commit here> // reset commitments after id  
-git reset <id of commit here> --hard  
+git reset 'id of commit here' // reset commitments after id  
+git reset 'id of commit here' --hard  
 
 Branch:  
-git branch <name of branch>  
+git branch 'name of branch'  
 git branch -a  //showing branches  
-git branch -D <name of branch> //delete branch  
-git checkout -b <name of branch> // creating new branch and checkout it  
+git branch -D 'name of branch' //delete branch  
+git checkout -b 'name of branch' // creating new branch and checkout it  
 
 Merge:  
 git checkout master  
-git merge <name of branch which you want merge>  
+git merge 'name of branch which you want merge'  
 
