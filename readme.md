@@ -42,7 +42,8 @@ git branch -a  //showing branches
 git branch -D 'name of branch' //delete branch  
 git checkout -b 'name of branch' // creating new branch and checkout it  
 
-Merge:  
+Merge: (to master) 
 git checkout master  
 git merge 'name of branch which you want merge'  
+git push -u origin master
 
