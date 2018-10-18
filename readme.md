@@ -36,6 +36,7 @@ reset commit
 git reset 'id of commit here' // reset commitments after id  
 git reset 'id of commit here' --hard  
 q - quiet  
+h - help  
 
 Branch:  
 git branch 'name of branch'  
@@ -51,5 +52,12 @@ git push -u origin master
 
 Hello Roman Tutorial:  
 (upradging workflow)  
-git config --global core.editor nano - changing git editor from vi to nano  
-git commit --amend - updating commit - after pushing commit witch you upradge after push => git push --force  
+git config --global core.editor nano //changing git editor from vim to nano  
+git config --global core.editor vim  
+git commit --amend - updating commit //after pushing commit witch you upradge after push => git push --force  
+
+In vim, you can press "i" to start entering text and save by pressing "esc" and ":wq" and "enter", this will commit with the message you typed. In your current state, to just come out without committing, you can do :q instead of the :wq as mentioned above.
+
+git reset --hard //deleting changes on branch after last commit  
+git reflog //back to last good state  
+git stash //something like commit but not commit - storage of version, when you don't want to commit  
