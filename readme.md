@@ -35,6 +35,7 @@ git revert 'id of commit here' // revert changes of commit
 reset commit  
 git reset 'id of commit here' // reset commitments after id  
 git reset 'id of commit here' --hard  
+q - quiet  
 
 Branch:  
 git branch 'name of branch'  
@@ -47,3 +48,8 @@ git checkout master
 git merge 'name of branch which you want merge'  
 git push -u origin master
 
+
+Hello Roman Tutorial:  
+(upradging workflow)  
+git config --global core.editor nano - changing git editor from vi to nano  
+git commit --amend - updating commit - after pushing commit witch you upradge after push => git push --force  
